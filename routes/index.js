@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Welcome Heroku Node Express' });
+  res.render('index', { title: 'Welcome Heroku Node Express App' });
 });
 
 module.exports = router;
